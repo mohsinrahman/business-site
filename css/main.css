@@ -1,0 +1,220 @@
+/*------------- Typography -------------------*/
+.blue-text {
+  color: #9ad3de; }
+
+h1, h2, h3, h4 {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: bold; }
+
+body {
+  font-family: "Lato", "Arial", sans-serif; }
+
+/* ------------ Styling ----------------------*/
+.orangeline {
+  height: 0.1em;
+  width: 40%;
+  background-color: #FF9000;
+  border-radius: 0.7em; }
+
+/*------------- Navbar -----------------------*/
+nav {
+  background: #89bdd3;
+  height: 52px; }
+
+button:focus {
+  outline: none; }
+
+a:active, a:hover, a:visited {
+  color: black; }
+
+.navbar-brand {
+  color: black;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em; }
+
+.navbar-collapse a {
+  color: white; }
+
+.hamburger-box {
+  background-color: #9ad3de;
+  width: 80px;
+  height: 100%;
+  top: 0;
+  right: 0; }
+
+.navbar-collapse {
+  background-color: #9ad3de;
+  margin-top: 52px;
+  z-index: 4; }
+
+.anchor {
+  padding-top: 60px; }
+
+/*------------ Hero img ---------*/
+.hero {
+  margin-top: 52px; }
+
+/*--------------PORTFOLIO-------------------------------*/
+.dark-blue {
+  width: 134px;
+  height: 182px;
+  background-color: #9ad3de; }
+
+.light-blue {
+  width: 134px;
+  height: 182px;
+  background-color: #e3e3e3; }
+
+.child-vertical-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+/*--------------Kontakta-------------------------------*/
+.btn {
+  width: 100%;
+  background-color: #9ad3de;
+  border: 0;
+  border-radius: 0;
+  height: 60px; }
+
+input[type=text], input[type=tel], input[type=email] {
+  border-radius: 0;
+  height: 60px; }
+
+.textarea {
+  border-radius: 0; }
+
+.map {
+  width: 200px;
+  height: 200px; }
+
+#map {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%; }
+
+.headerlogo {
+  display: none; }
+
+/*------------- Desktop Media Query -------------------*/
+@media screen and (min-width: 1024px) {
+  /*-------------Navbar------------*/
+  .navbar-collapse {
+    background-color: #89bdd3;
+    margin-top: 0;
+    top: 0;
+    position: relative; }
+    .navbar-collapse a {
+      margin-right: 2em; }
+    .navbar-collapse a:hover {
+      background-color: #9ad3de; }
+
+  .headerlogo {
+    display: inline-block; }
+
+  /*------------ Hero img ---------*/
+  .hero-text {
+    position: absolute;
+    width: 1200px;
+    top: 10%;
+    /* top:30%; */
+    z-index: 2;
+    /* margin: 0 auto; */
+    color: white;
+    text-shadow: 4px 4px 10px #969696; }
+
+  .hero-text h1 {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 64px;
+    font-weight: bold; }
+
+  .hero-text p {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 100px; }
+
+  .hero-gradient {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #9ad3de;
+    opacity: 0.7;
+    width: 100%;
+    /* height: 576px; */
+    height: 506px; }
+
+  /*--------------PORTFOLIO-------------------------------*/
+  .dark-blue {
+    width: 269px;
+    height: 364px;
+    background-color: #9ad3de; }
+
+  .light-blue {
+    width: 269px;
+    height: 364px;
+    background-color: #e3e3e3; }
+
+  .child-vertical-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .child-vertical-center a {
+      padding-left: 5px; }
+
+  .map {
+    width: 350px;
+    height: 350px; }
+
+  .herohr {
+    display: none !important; } }
+/*--------------MEDIA Query For Ipad-------------------------------*/
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+  .child-vertical-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .child-vertical-center a {
+      padding-left: 5px; }
+
+  .map {
+    width: 250px;
+    height: 250px; }
+
+  .herohr {
+    display: none !important; }
+
+  .headerlogo {
+    display: inline-block; } }
+
+/*# sourceMappingURL=main.css.map */
